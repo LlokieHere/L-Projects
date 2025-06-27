@@ -33,11 +33,11 @@ public class AssignSeat {
             int intColumn = column - 65;
 
     
-            if(seatArr[row][intColumn] == 'X'){
+            if(seatArr[row - 1][intColumn] == 'X'){
                 System.out.println("Seat is already taken." + "\n" +
                                     "Please choose another one" );
             } else {
-                seatArr[row][intColumn] = 'X';
+                seatArr[row - 1][intColumn] = 'X';
                 validity = true;
                 System.out.println();
             }
