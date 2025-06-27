@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//For Plane seat reservation
 public class AirplaneSeat {
     static final int ROWS = 13; // Number of rows in the airplane
     static final int COLUMNS = 6; // Number of columns in the airplane
