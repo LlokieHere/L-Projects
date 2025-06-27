@@ -1,4 +1,4 @@
-import java.util.Scanner; //For Plane seat reservation//For Plane seat reservation
+import java.util.Scanner; 
 
 public class AssignSeat {
     public void assign(int startRow, int endRow, int columns, char[][] seatArr, Scanner scanner){
