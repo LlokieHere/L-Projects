@@ -65,6 +65,6 @@ public class AirplaneSeat {
                 default:
                     break;
             }
-        } while (choice != 4);
+        } while (choice != '4');
     }
 }
