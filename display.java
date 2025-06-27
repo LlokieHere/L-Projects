@@ -1,3 +1,5 @@
+//For Plane seat reservation
+
 public class display {
     public void displaySeat(char[][] seat, int row, int column) {
         System.out.println();
